@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Open+Sans:wght@500&family=Poppins:wght@200;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Poppins', sans-serif;
+}
+
+.navigation {
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.nav-left {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+
+}
+
+.abo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left ul {
+    list-style: none;
+
+}
+
+.nav-left ul li {
+    margin-left: 25px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--font2);
+    font-weight: bolder;
+}
+
+.nav-left ul li a:hover {
+    color: rgb(98, 9, 98);
+    font-weight: bold;
+}
+
+.form-input {
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: rgb(244, 247, 248);
+    font-family: var(--font1);
+    border: 2px solid aliceblue;
+
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    background-color: rgba(1, 7, 0, 0.89);
+    border-radius: 5px;
+}
+
+.ji {
+    width: 45px;
+    height: 45px;
+
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-item {
+    position: relative;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    left: 0;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100vw;
+    height: 40vw;
+    padding: 10px;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    /* Text color */
+    transition: background-color 0.3s;
+    /* Smooth background color transition */
+}
+
+.dropdown a:hover {
+    background-color: #f2f2f2;
+    /* Background color on hover */
+}
+
+.style-box {
+    height: 200px;
+   width:200px;
+}
